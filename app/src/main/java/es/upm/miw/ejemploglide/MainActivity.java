@@ -8,7 +8,6 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-// https://www.androidhive.info/2016/04/android-glide-image-library-building-image-gallery-app/
 
 public class MainActivity extends Activity {
 
@@ -19,7 +18,8 @@ public class MainActivity extends Activity {
     }
 
     public void pulsa (View v) {
-        String imgUrl = "https://api.androidhive.info/images/glide/medium/deadpool.jpg";
+
+        String imgUrl = "https://i.pinimg.com/474x/e3/94/47/e39447de921955826b1e498ccf9a39af--chuck-norris-paradis.jpg";
 
         ImageView imageView = findViewById(R.id.thumbnail);
 
